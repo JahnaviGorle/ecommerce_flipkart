@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+    </title>
+    <link rel="icon" href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico" />
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style1.css" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="search_container">
+            <i class="fa-solid fa-magnifying-glass"></i>   
+                <form id="search_form">
+                    <input type="search"  placeholder="Search for products,Brands and More" id="search_input"/>
+
+                </form>    
+                    
+             <div class="recent_Search">
+                <div class="recent_Search_List">
+                   <i class="fa-solid fa-clock-rotate-left"></i>
+                   <p>Mobiles</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="loginBtn_container">
+            <a href="#" style="color: black;"><i class="fa-regular fa-circle-user"></i>
+                <span>Login</span></a>
+            <div class="login_menu">
+                <div class="login_menu_list">
+                    <div class="login_menu_top">
+                        <p>New Customer?</p>
+                        <a href="#">Sign Up</a>
+                    </div>
+                    <div class="menu_nav_link">
+                        <a
+                            href="https://www.flipkart.com/account/login?ret=%2Faccount%2F%3Frd%3D0%26link%3Dhome_account">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <p>My Profile</p>
+                        </a>
+                        <a href="#">
+                            <img src="./icon/plusBlue.svg" class="menu_nav_icon" />
+                            <p>Flipkart plus zone</p>
+                        </a>
+                        <a href="#">
+                            <img src="./icon/orderIcon.svg" class="menu_nav_icon" />
+                            <p>Order</p>
+                        </a>
+                        <a href="#">
+                            <img src="./icon/wishlistIcon.svg" class="menu_nav_icon" />
+                            <p>Wishlist</p>
+                        </a>
+                        <a href="#">
+                            <img src="./icon/rewardIcon.svg" class="menu_nav_icon" />
+                            <p>Rewards</p>
+                        </a>
+                        <a href="#">
+                            <img src="./icon/giftIcon.svg" class="menu_nav_icon" />
+                            <p>Gift Cards</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <a href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART" style="color: black;">
+        <div class="Cart">
+            <i class="fa-solid fa-cart-plus"></i>
+            <span>Cart</span>
+        </div>
+    </a>
+        <div class="seller">
+            <i class="fa-solid fa-store"></i>
+            <a class="nav-link" href="//seller.flipkart.com/sell-online?utm_source=fkwebsite&utm_medium=websitedirect">
+            <span style="color: black;">Become a Seller</span></a>
+        </div>
+        <div class="more_link" style="color: black;">
+            More
+            <i class="fa-solid fa-angle-down icon_more"></i>
+            <div class="more_menu">
+                <div class="more_menu_list">
+
+                    <a href="https://www.flipkart.com/communication-preferences/push?t=all">
+                        <img src="./icon/notificationIcon.svg" class="menu_nav_icon" />
+                        <p>Notifications</p>
+                    </a>
+                    <a href="https://www.flipkart.com/helpcentre">
+                        <img src="./icon/customerIcon.svg" class="menu_nav_icon" />
+                        <p>24X7 Customer Care</p>
+                    </a>
+                    <a href="https://advertising.flipkart.com/login?returl=/?otracker=ch_vn_advertise_header">
+                        <img src="./icon/advertiseIcon.svg" class="menu_nav_icon" />
+                        <p>Advertise</p>
+                    </a>
+                    <a href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps">
+                        <img src="./icon/downloadIcon.svg" class="menu_nav_icon" />
+                        <p>Download App</p>
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="featureProducts">
+            <div class="featureProduct_list">
+                <div class="featureProduct_item">
+                    <a href="#">
+                    <div class="featureProduct_image">
+                   <a href="">    <img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/25f400c36bc3487d.jpg?q=100" alt="">      </a>            
+                    </div>
+                    <div class="featureProduct_name">
+                        <p>Grocery</p>
+                    </a>
+                    </div>
+                </div>           
+            </div>
+        </div>
+     
+          <!--image slider-->
+         <section class="container">
+            <div class="imageSliderContainer">
+                <div class="imageSliderBtn">
+                    <button id="preve_imageBtn">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button id="next_imageBtn">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+    
+                <div class="imageSliderList">
+    
+                </div>
+            </div>   
+         </section>
+
+
+<!--------------container1-->
+
+
+         <section class="container">
+            <div class="productsectin1">
+                <div class="psleft">
+                    <div class="productheader">
+                        <h3>Best of Electronics</h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div class="productgroup">
+                        <div class="product">
+                            <div class="productimg">
+                                <a href="https://www.flipkart.com/vega-vhdh-20n-hair-dryer/p/itma7a06a92055a7?pid=HDRFGABHHEB7MJBC&lid=LSTHDRFGABHHEB7MJBCEDYIEL&marketplace=FLIPKART&store=zlw%2F79s%2Fmh8&srno=b_1_2&otracker=browse&fm=organic&iid=en_wJymdoyp8QurUWFV7KmEaHWHk9Rm8uDtE3zZqxb3nNn5lW43tkm_
+                                Vxm2XOL5Cba2rJyeN1GTCfDzrF9jcFTvCoQEIsITtCzc4bHaOMTqL08%3D&ppt=None&ppn=None&ssid=aw3tqpl6j40000001723302215631"><img src="images/hair dryer.webp" alt=""></a>
+                            </div>
+                            <div class="productinfo">
+                                <p>Best of Hair Dryers</p>
+                                <h5 style="color: green;"> <i class="fa fa-inr" aria-hidden="true"></i>549/- only</h5>
+                            </div>
+                        </div>
+    
+                        <div class="product">
+                            <div class="productimg">
+                               <a href="https://www.flipkart.com/hp-smart-tank-all-one-529-multi-function-color-ink-printer-print-scan-copy-up-6000-black-pages-box/p/itm58e814aca5e48?pid=PRNGKZB6WHVACNP8&lid=LSTPRNGKZB6WHVACNP8NHWK0C&marketplace=FLIPKART&store=6bo%2Ftia%2Fffn%2Ft64&srno=b_1_3
+                               &otracker=clp_omu_ITPeripherals_1_5.dealCard.OMU_flipkart-electronics-new-store_flipkart-electronics-new-store_D58W802JZ34U_5&otracker1=clp_omu_PINNED_neo%2Fmerchandising_ITPeripherals_NA_dealCard_
+                               cc_1_NA_view-all_5&fm=neo%2Fmerchandising&iid=e8d3d5a1-7d1a-41da-963f-35d9e23d4e29.PRNGKZB6WHVACNP8.SEARCH&ppt=browse&ppn=browse&ssid=z5m7xf08s00000001723302368710">
+                                <img src="images/inktank.webp" alt=""></a>
+                            </div>
+                            <div class="productinfo">
+                                <p>HP Smart Ink Tanker</p>
+                                <h5 style="color: green;"><i class="fa fa-inr" aria-hidden="true"></i>10000/- only</h5>
+                            </div>
+                        </div>
+    
+                        <div class="product">
+                            <div class="productimg">
+                                <a href="https://www.flipkart.com/apple-airpods-pro-2nd-generation-magsafe-case-usb-c-bluetooth-headset/p/itm60c8f5a308352?pid=ACCGTCYRNADXCXNG&lid=LSTACCGTCYRNADXCXNGWCU03Q&marketplace=FLIPKART&store=0pm%2Ffcn&spotlightTagId=BestsellerId_0pm%2Ffcn&srno=b_1_1&otracker=browse&fm=neo%2Fmerchandising&iid=c54b990
+                                e-ecc3-4333-ab93-b2249583970d.ACCGTCYRNADXCXNG.SEARCH&ppt=sp&ppn=productListView&ssid=iettcqigio0000001723302566460">
+                                <img src="images/ea.webp" alt=""></a>
+                            </div>
+                            <div class="productinfo">
+                                <p>Apple Airpods(2nd Gen)</p>
+                                <h5 style="color: green;"><i class="fa fa-inr" aria-hidden="true"></i>8,499/- only</h5>
+                            </div>
+                        </div>
+    
+                        <div class="product">
+                            <div class="productimg">
+                                <a href="camera-dual-lens-16-50-mm-55-210-zoom-featuring-eye-af-4k-movie-recording/p/itm6bb77cb536d0c?pid=CA
+                                MFM67HGGZDDXUE&lid=LSTCAMFM67HGGZDDXUETROVV5&marketplace=FLIPKART&store=
+                                jek%2Fp31&srno=b_1_23&otracker=browse&fm=organic&iid=58f4e778-8fed-4137-90a5"><img src="images/mirrorless.webp" alt=""></a>
+                            </div>
+                            <div class="productinfo">
+                                <p> Mirrorless Cameras</p>
+                                <h5 style="color: green;"><i class="fa fa-inr" aria-hidden="true"></i>10,000/- only</h5>
+                            </div>
+                        </div>
+    
+                        <div class="product">
+                            <div class="productimg">
+                                <a href="https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itm8229e27c1df
+                                28?pid=SMWGEH7VV8B3H8Y6&
+                                lid=LSTSMWGEH7VV8B3H8Y6H0VDR4&marketplace=FLIPKART&store=ajy%2Fbuh&srno=b_1_1&otracker=browse&fm=organic&iid=en_zXX3U1
+                                xACjE-3_3tWZxoz0P4i1OztbLiOYYf-CIIPL90TSoxSEgxVprivzMPNmNQKHTX3cInRW5aNzPymZB-3Q%3D%3D&ppt=browse&ppn=browse"><img src="images/watch.webp" alt=""></a>                    
+                               </div>
+                            <div class="productinfo">
+                                <p>Noise Colorfit Icon 2 1.8</p>
+                                <h5 style="color: green;"> <i class="fa fa-inr" aria-hidden="true"></i>1,199/- only</h5>
+                            </div>
+                        </div>
+    
+                        <div class="product">
+                            <div class="productimg">
+                                <a href=""><img src="images/laptop.webp" alt=""></a>
+                            </div>
+                            <div class="productinfo">
+                                <p>Ultimus Pro Intel Celeron Dual Core N4020</p>
+                                <h5 style="color: green;"> <i class="fa fa-inr" aria-hidden="true"></i>11,199/- only</h5>
+                            </div>
+                        </div>    
+                        <div class="productiright">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="psright">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/530/810/image/131c8c7ecafd87e5.jpg?q=20" alt="">
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+<!---------------container2------------->
+      
+
+ <section class="container">
+    <div class="row">
+        <div class="column">
+         <a href="https://www.flipkart.com/tyy/4io/~cs-xjdtfjn3kt/pr?sid=tyy,4io&collection-tab-name=Mto+Edge+50+Fusion&param=2022">
+            <img src="images/moto.webp" alt="Snow" style="width:100%">
+         </a>
+        </div>
+        <div class="column">
+          <a href="https://www.flipkart.com/ckf/czl/~cs-8iho3ftzkg/pr?sid=ckf%2Cczl&collection-tab-name=4K+Smart+TVs&sort=recency_desc">
+            <img src="images/smart.webp" alt="Forest" style="width:100%">
+            </a>
+        </div>
+        <div class="column">
+            <a href="https://www.flipkart.com/6bo/b5g/~cs-g9f00mzho5/pr?sid=6bo,b5g&collection-tab-name=Bestselling&pageCriteria=BlueAndMall">
+          <img src="images/oled.webp" alt="Mountains" style="width:100%">
+        </a>
+        </div>
+      </div>
+ </section>
+<br>
+ <!-------------container3---------------->
+ <section class="container">
+    <div class="productsectin2">
+        <div class="psleft2">
+            <div class="productheader">
+               <a href="https://www.flipkart.com/offers-list/bestsellers-on-fashion?screen=dynamic&pk=
+               themeViews%3DLS-Event-BestSellers%3ADT~widgetType%3DdealCard~contentType%3Dneo"> <h3>Best Sellers On Fashion</h3></a>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="productgroup">
+                <div class="product">
+                    <div class="productimg">
+                        <a href=""><img src="images/fashion1.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>Shoes</p>
+                        <h5>Upto 80% Off</h5>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productimg">
+                       <a href="https://www.flipkart.com/safari-magnum-zeno-55-cabin-suitcase-4-wheels-22-inches/
+p/itm768c16c4b3abb?pid=STCGZN7G76ZJJ9ZA&lid=LSTSTCGZN7G76ZJJ9ZA4ZB2NR&marketplace=FLIPKART&store=reh%2Fplk%2Ftvv&srno=b_1_1&otracker=browse&fm=organic&iid=en_Rj0d7DlHB3V2Q-J_Kg4o6RSrZyCNfwapusVvQBmVFJKqzNOA3ue
+                       LjnEHr7rq8IH8Ko72gMtohbyj6nwvUS9gTPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=hp&ppn=homepage&ssid=x67uij4d6o0000001723304084772"> <img src="images/fashion2.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>SuitCases</p>
+                        <h5>Up to 70% Off</h5>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productimg">
+                        <a href=""><img src="images/fashion3.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>Kurtas @ Lowest Prices!</p>
+                        <h5>Under ₹399</h5>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productimg">
+                        <a href=""><img src="images/fashion4.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>Wedding Sarees</p>
+                        <h5>Under ₹999</h5>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productimg">
+                        <a href=""><img src="images/fashion5.webp" alt=""></a>                    
+                       </div>
+                    <div class="productinfo">
+                        <p>Slippers</p>
+                        <h5>Under ₹499/-</h5>
+                    </div>
+                </div>
+                
+                <div class="product">
+                    <div class="productimg">
+                        <a href=""><img src="images/fashion6.webp" alt=""></a>                    
+                       </div>
+                    <div class="productinfo">
+                        <p>Trendy Kurta!</p>
+                        <h5>50 to 80%</h5>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="productimg">
+                        <a href="https://www.flipkart.com/puma-kendall-wns-idp-casuals-women/p/itm2cc3e19fdec71?pid
+                        =SHOG5KWF4YVVGXDE&lid=LSTSHOG5KWF4YVVGXDEERQQ38&marketplace=FLIPKART&store=osp%2Fiko&srno=b_1_3&otra
+                        cker=browse&fm=organic&iid=5dbdec06-9161-4290-bf84-36d94
+                        36c20cf.SHOG5KWF4YVVGXDE.SEARCH&ppt=browse&ppn=browse&ssid=r7erarvxqo0000001723303852036"><img src="images/fashion7.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>Women's Shoes</p>
+                        <h5>Min 50%</h5>
+                    </div>
+                </div>    
+               
+            </div>
+        </div>
+       
+    </div>
+</section>
+<br>
+<!----------------------container4---------------->
+
+<section class="container">
+    <div class="productsectin2">
+        <div class="psleft2">
+            <div class="productheader">
+                <h3>Features and Brands</h3>
+            </div>  
+    <div class="row1">
+        <div class="column1">
+         <a href="https://www.flipkart.com/tyy/4io/~cs-xjdtfjn3kt/pr?sid=tyy,4io&collection-tab-name=Mto+Edge+50+Fusion&param=2022">
+            <img src="images/brand1.webp" alt="Snow" style="width:100%">
+         </a>
+        </div>
+        <div class="column1">
+          <a href="https://www.flipkart.com/ckf/czl/~cs-8iho3ftzkg/pr?sid=ckf%2Cczl&collection-tab-name=4K+Smart+TVs&sort=recency_desc">
+            <img src="images/brand2.webp" alt="Forest" style="width:100%">
+            </a>
+        </div>
+        <div class="column1">
+            <a href="https://www.flipkart.com/6bo/b5g/~cs-g9f00mzho5/pr?sid=6bo,b5g&collection-tab-name=Bestselling&pageCriteria=BlueAndMall">
+          <img src="images/brand3.webp" alt="Mountains" style="width:100%">
+        </a>
+        </div>
+        
+       
+    </div>
+        
+   </div>
+      </div>
+</section>
+<br>
+<!----------------container5------------------->
+<section class="container">
+    <div class="large">
+    <a href="https://www.flipkart.com/emergency-relief-response/Disaster%20Response%202024%20FKEmp.php">
+        <img src="images/large.webp" alt="">
+    </a>
+</div>
+</section>
+
+
+<!----------------container6--------------->
+<section class="container">
+    <div class="productsectin2">
+        <div class="psleft2">
+            <div class="productheader">
+                <h3>New Arrivals Collections</h3>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="productgroup">
+                <div class="product">
+                    <div class="productimg">
+                        <a href="https://www.flipkart.com/svaar-men-clogs/p/itm386c894adc8ef?pid=SNDGJQV5TUZ46NHH&lid=LSTSNDGJQV5TUZ46NHHUBGTN2&marketplace=FLIPK
+                        ART&store=osp%2Fcil&srno=b_1_1&otracker=browse&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_5_L1_view-all&fm=organic&iid=en_njsjSoi5Csb6ZZZmkBZhXdQ7PVKvh8gv99GuKGzErNNDW3pZsD4YcrHKDnXJOLNGVwbWb5XCsfk3OEmK_mvd0PUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=
+                        browse&ppn=browse&ssid=g1p4yhhfwg0000001723307230662"><img src="images/crocs.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>Men Clogs Sandal</p>
+                        <h5>40-80%</h5>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productimg">
+                       <a href="https://www.flipkart.com/solethreads-sneakers-men/p/itmd24cf215be8be?pid=SHOGNZEAZY2Q3DGY&lid=LSTSHOGNZEAZY2Q3DGY3JMRVC&marketpla
+                       ce=FLIPKART&store=osp&srno=b_1_13&otracker=browse&fm=organic&iid=5ed2d52c-ec78-4c6c-a5ff-77c7ac96960b.SHOGNZEAZY2Q3DGY.SEARCH&ppt=browse&ppn=browse
+                       &ssid=4dlrou1log0000001723307021098"> <img src="images/sole.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>Sneakers</p>
+                        <h5>Upto 30%</h5>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productimg">
+                     <a href="https://www.flipkart.com/delfa-clothing-gold-plated-latest-fancy-earrings-women-girls-alloy-jhumki-earring/p/itmbad1ddd444ee4"><img src="images/ear.webp" alt=""></a>  
+                    </div>
+                    <div class="productinfo">
+                        <p>Ear Rings</p>
+                        <h5>Min 60% off</h5>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productimg">
+                        <a href="https://www.flipkart.com/muskan-beauty-collection-girls-midi-knee-length-casual-dress/p/itmb3cb4994360af?pid=KDEGDY3HMKYUGUPY&li
+                        d=LSTKDEGDY3HMKYUGUPYCMZNDK&marketplace=FLIPKART&store=clo%2Fodx%2Fmaj%2Fzc1&spotlightTagId=BestsellerId_clo%2Fodx%2Fmaj%2Fzc1&srno=b_1_2&otracker=browse&fm=organic&iid=62bc8c2d-d34b-4bd3-a746-9a8aba226c79.KDEGDY3HMKYUGUPY.SEARCH&ppt=brow
+                        se&ppn=browse&ssid=dd3h5g8tww0000001723306875710"><img src="images/trendy.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>Girls Trendy Dress</p>
+                        <h5>Under ₹199</h5>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productimg">
+                        <a href="https://www.flipkart.com/sukkhi-alloy-gold-plated-gold-jewellery-set/p/itme7f789acbfabe?pid=JWSGY79HZHFGBS6E&lid=LSTJWSGY79HZHFGBS6EF0IVRT
+                        &marketplace=FLIPKART&store=mcr&spotlightTagId=BestsellerId_mcr&srno=b_1_4&otracker=browse&fm=organic&iid=4d9bf4a7-c8ad-40f5-82a6-4e06673fb041.JWSGY79HZHFGBS6E
+                        .SEARCH&ppt=browse&ppn=browse&ssid=su2ffdxcxc0000001723306778569"><img src="images/jwellery.webp" alt=""></a>                    
+                       </div>
+                    <div class="productinfo">
+                        <p>Jewellery Sets</p>
+                        <h5>Under ₹499+Extra Off</h5>
+                    </div>
+                </div>
+                
+                <div class="product">
+                    <div class="productimg">
+                        <a href="https://www.flipkart.com/boult-probass-eqcharge-zen-mode-enc-32hrs-playtime-ultra-fast-charging-bluetooth-headset/p/itm4bbe5660108a7?pid=ACCGEDKJJW5FE6KW&lid=LSTACCGEDKJJW5FE6KWMBNARY&marketplace=FLIPKART&store=0pm%2Ffcn%2F821%2Fa7x%2F2rv&srno=b_1_1&otracker=browse&fm=organic&iid=en_DMI0Y9TQ0bxrJiaYGFUi54U62vymYWhqMke6
+                        4cS6wRhEDfo-2utd1DCce3xtgq-Om2nb8S_8Uryyuxsompaw3g%3D%3D&ppt=browse&ppn=browse&ssid=h0eykyt99c0000001723306718171"><img src="images/neckband.webp" alt=""></a>                    
+                       </div>
+                    <div class="productinfo">
+                        <p>Neckband</p>
+                        <h5>Top Deals</h5>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="productimg">
+                        <a href="https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itm9d8957f65c72e
+                        ?pid=SMWGEH7WC8F4VKKZ&lid=LSTSMWGEH7WC8F4VKKZ6TOWMG&marketplace=FLIPKART&store=ajy%2Fbuh&srno=b_1_9&otracker=browse&fm=organic&iid=b1393e
+                        83-784f-40aa-9802-a821089973a3.
+                        SMWGEH7WC8F4VKKZ.SEARCH&ppt=browse&ppn=browse&ssid=3iiz0ti6xc0000001723306515843"><img src="images/sm.webp" alt=""></a>
+                    </div>
+                    <div class="productinfo">
+                        <p>Smart Watches</p>
+                        <h5>Min 40% Off</h5>
+                    </div>
+                </div>    
+               
+            </div>
+        </div>
+       
+    </div>
+</section>
+<br>
+<!------------------container7--------------->
+
+<section class="container">
+    <div class="productsectin4">
+        <div class="psleft4">
+            
+    <div class="row2">
+        <div class="column2">
+         <a href="https://www.flipkart.com/debit-card-emi-store">
+            <img src="images/debit1.png" alt="Snow" style="width:100%">
+         </a>
+        </div>
+        <div class="column2">
+          <a href="https://www.flipkart.com/nocostemi-store">
+            <img src="images/debit2.png" alt="Forest" style="width:100%">
+            </a>
+        </div>
+        <div class="column2">
+            <a href="https://www.flipkart.com/bajajfinserv-store">
+          <img src="images/debit3.png" alt="Mountains" style="width:100%">
+        </a>
+        </div>
+        <div class="column2">
+            <a href="https://www.flipkart.com/account/login?ret=https%3A%2F%2Fwww.flipkart.com%2Frv%2Finsurance%2Fhome%3Futm_source%3DHome_Page%26utm_medium%3DMobileApp%26utm_context%3DMotor_HP_Sale">
+          <img src="images/debit4.png" alt="Mountains" style="width:100%">
+        </a>
+        </div>
+        </div>
+        </div>
+      </div>
+ </section>
+
+<!----------Directorylink-------------->
+<section class="container">
+    <div class="branddirectory">
+        <div class="linkheader">
+            <h4>Top Stories : Brand Directory</h4>
+        </div>
+        <div class="directorylink">      
+          <h5>MOST SEARCHED FOR ON FLIPKART:</h5>  <a href="#"> Aadi Sale | Rakhi | Rakhi Gifts for Brother | Raksha Bandhan Gifts for Sister | Bhaiya Bhabhi Rakhi | CMF by Nothing Phone 1 | Pocket Bazaar | Xiaomi 14 CIVI iPhone 15 Infinix Note 40 5G iPhone 15 Plus iPhone 15
+                Pro Blue | iPhone 15 Pro Black | vivo Fold Pro | Motorola g04s | iPhone 15 Pro Max Blue | iPhone 15 Pro Max Black | Vivo x 100 | OnePlus Nord CE 3 Lite 5G | Spoyl Store | SAMSUNG Flip | SAMSUNG Fold | Flipkart Axis Bank Super Elite Credit card | 5G
+                Mobile Phones | Primebook Laptops | Moto Edge 40| Grievance Redressal | OPPO Reno7 Pro 5G | iPhone 13 | Help Centre | Track Orders | Manage Orders | Return Orders | Gift Cards Store | Flipkart Axis Bank Credit Card Pay Later.
+                </a><br><br>
+                <h5>MOBILES :</h5><a href="#">Redmi 12 5G | Realme 12+ 5G | Motorola G84 Realme C53 | Infinix Smart 8 | Samsung Galaxy S23 5G | Samsung Galaxy S21 FE 5G Qualcomm | vivo V30 | Samsung Galaxy S24 5G Samsung Galaxy S24 + 5G iPhone 12 64GB | iPhone 12 Pro
+                    512GB | iPhone 12 128GB | Vivo Y15 | SAMSUNG Galaxy S21 FE 5G | Infinix HOT 30 | Realme 10 Pro 5G | MOTOROLA G62 5G | Nothing Phone | REDMI Note 12 Pro 5G | Infinix SMART 7 | Vivo Y12 | Oppo A12 | Motorola 5g Phone | Realme 5g Smartphone | Apple
+                    5g Phone Iqoo 5g Phones</a><br><br>
+            <h5>LAPTOPS :</h5><a href="#">Asus ROG Ally | MacBook Pro M2 | Premium Laptop | Asus ROG Strix SCAR 16 (2023) Core i9 13th Gen | ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen | ASUS Zenbook 14 OLED (2022) | Realme Book Prime Core i5 11th Gen | Microsoft Surface Go Pentium 128GB | Apple Laptops | Acer Laptops | Lenovo Laptops | Dell Laptops | Asus Laptops | HP Laptops Gaming Laptops | 2 in 1 Laptops | Laptops | Dell latest laptops 2022 | HP latest laptops 2022 | Infinix INBook Y1 Plus | SAMSUNG Galaxy Book3 12th Gen Intel Core Laptops
+            </a>
+<br><br>
+            <h5>Baby and Kids :</h5><a href="#">
+                Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.
+                </a><br><br>
+                <h5>Books, Sports and Games :</h5><a href="#">
+                    Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.
+                    </a><br><br>
+                <h5>Grocery/Supermart :</h5><a href="#">
+    Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. 
+    </a>
+
+<br>
+
+        </div>
+    </div>
+</section>
+
+<!---------------footer----------------->
+<footer>
+    <div class="footertop">
+        <div class="footpara">
+            <div class="footpara1">
+                <div class="footparahead">
+                    <p>ABOUT</p>
+                </div>
+                <div class="footparainfo">
+                    <a href="https://www.flipkart.com/helpcentre?otracker=${otracker}_navlinks">Contact Us</a>
+                    <a href="https://corporate.flipkart.net/corporate-home">About Us</a>
+                    <a href="https://www.flipkartcareers.com/?otracker=${otracker}_navlinks#!/">Careers</a>
+                    <a href="#">Flipkart Stories</a>
+                    <a href="#">Press</a>
+                    <a href="#">Corporate In formation</a>
+
+                </div>
+            </div>
+            
+            <div class="footpara1">
+                <div class="footparahead">
+                    <p>Group Comapnies</p>
+                </div>
+                <div class="footparainfo">
+                    <a href="#">Myntra</a>
+                    <a href="#">Clear Trip</a>
+                    <a href="#">Shopsy</a>
+                    
+                </div>
+            </div>
+            <div class="footpara1">
+                <div class="footparahead">
+                    <p>Help</p>
+                </div>
+                <div class="footparainfo">
+                    <a href="#">Payments</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Cancellation & Return</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Report In fringment</a>
+                  
+                </div>
+            </div>
+            <div class="footpara1">
+                <div class="footparahead">
+                    <p>Consumer Policy</p>
+                </div>
+                <div class="footparainfo">
+                    <a href="#">Cancellation</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Security</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Grievence Redressal</a>
+                    <a href="#">EPR Compilance</a>
+                  
+                </div>
+            </div>
+           
+            
+            <div class="footpara1">
+                <div class="footparahead">
+                    <p>Mail Us</p>
+                </div>
+                <div class="footparainfo">
+                    <a href="#">Flipkart Internet PrivateLimited,</a>
+                    <a href="#">Buildings Alyssa,Begonia &</a>
+                    <a href="#">Clove Embassy Tech village,</a>
+                    <a href="#">Outer Ring Road,Bengaluru,</a>
+                    <a href="#">560103,Karnataka,India.</a>
+                   
+                </div>
+            </div>
+            <div class="footpara1">
+                <div class="footparahead">
+                    <p>Registered Office Address</p>
+                </div>
+                <div class="footparainfo">
+                    <a href="#">Flipkart Internet PrivateLimited,</a>
+                    <a href="#">Buildings Alyssa,Begonia &</a>
+                    <a href="#">Clove Embassy Tech village,</a>
+                    <a href="#">Outer Ring Road,Bengaluru,</a>
+                    <a href="#">560103,Karnataka,India.</a>
+                    <a href="#">CIN : U51109KA2012PTC066107</a>
+                    <a href="#">Telephone:-45614700|044-67415800</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerbtm">
+        <div class="footbtmgroup">
+            <div class="btmpara1">
+                <span><i class="fa-solid fa-store" style="color: yellow;"></i> Become a Seller</span>
+            </div>
+            <div class="btmpara1">
+                <span><i class="fas fa-ad" style="color: yellow;"></i>Advertise</span>
+            </div>
+            <div class="btmpara1">
+                <span><i class="fa fa-gift" aria-hidden="true" style="color: yellow;"></i> Giftcards</span>
+            </div>
+            <div class="btmpara1">
+                <span><i class="fa fa-question-circle" style="color: yellow;"></i> Help Center</span>
+            </div>
+            <div class="copyright">
+                <span><i class="fa fa-copyright" style="color: yellow;""></i>2007-2024 Flipkart.com</span>
+            </div>
+            <div class="paymentimg">
+                <img src="payment-method-c454fb.svg" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+    </main>
+
+
+  <script src="javascript.js" type="module">
+
+  </script>
+
+</body>
+</html>
